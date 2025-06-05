@@ -9,7 +9,10 @@ body{
 
 header{
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase;  
+    font-family: "Exile", system-ui;
+    font-weight: 400;
+    font-style: normal;
     padding: 1px;
     background-color: rgb(247, 205, 202);
     color: rgb(16, 47, 94);
@@ -31,9 +34,14 @@ header{
 
 h2{
     text-align: center;
-    /* font-size: 1v; */
+    font-family: "Fugaz One", sans-serif;
+    font-size: 1.8em;
+    color:rgb(255, 138, 138);
+    font-style: oblique;
+     /* font-size: 1v; */
     background-color:#c2f8f1;
-    margin: 12px 120px;
+    border-radius:  5px;
+    /* margin: 10  px; */
 }
 .portfolio img{
     max-width: 100%;
@@ -46,13 +54,19 @@ h2{
 }
 
 img:hover{
-     width: 370px;
-    height: 320px; 
-    /* transform: scale(1.05); */
-    border-radius: 0;
+     /* width: 370px;
+    height: 320px;  */
+    transform-origin: center;
+    transform: scale(1.05);
+    border-radius: 20%;
     opacity:1;
 }
 
+.foot{
+    margin: 20px;
+   
+}
+ 
 /* .portfolio::after{
     content:"";
     width: 716px;
