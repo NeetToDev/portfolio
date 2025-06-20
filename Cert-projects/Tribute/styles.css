@@ -1,0 +1,49 @@
+body{
+    /* background-color: black; */
+}
+main{
+    background-color: rgb(182, 219, 212);
+    border-radius: 2%;
+    text-align: center;
+}
+
+#title{
+    font-size: 4rem;
+}
+
+#image-div{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+     
+    /* padding: auto 50px; */
+}
+#image{
+    display: block;
+     
+    padding-top: 2%;
+    max-width: 100%;
+    height: auto;
+}
+
+.ht{
+    font-weight: bolder;
+}
+
+ul{
+    text-align: left;
+    margin:auto 20%;
+}
+#tribute-info{
+    padding-bottom: 20px;
+}
+
+#quote{
+    margin: 2% 20%;
+}
+
+
+a{
+    color: rgb(148, 168, 185);
+    text-decoration: none;
+}
